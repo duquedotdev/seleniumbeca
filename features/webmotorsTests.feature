@@ -1,10 +1,12 @@
 # language: pt
 
-	Funcionalidade: Testar site Webmotors
+	Funcionalidade: Testar página de usuário do Webmotors
 	
-		Um cliente deseja fazer uma busca de um carro no site.
-		Ele deseja poder pesquisar pelo modelo, e receber as opções.
+		Um cliente deseja fazer login no site e verificar se está na página Minha Garagem
 		
 	@evidencia
-	Cenario: Validar que a página é carregada corretamente
-	Dado que eu navego até a página Home do Webmotors
+	Cenario: Validar se o usuário faz login
+	Dado que eu navego até a página de login do Webmotors
+	Quando eu preencho os meus dados
+	E clico no botão entrar
+	Entao eu estou logado
